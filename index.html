@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Rock Paper Scissor</h1>
+        <main class="choices">
+            <div class="choice" id="rock">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </div>
+            <div class="choice" id="paper">
+                <i class="fa-solid fa-hand"></i>
+            </div>
+            <div class="choice" id="scissors">
+                <i style="transform: rotate(270deg);" class="fa-solid fa-scissors"></i>
+            </div>
+        </main>
+
+        <div class="score_board">
+            <div class="score">
+                <p id="user_score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="comp_score">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+        <div class="msg_container">
+            <p id="msg">Play your Move</p>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
